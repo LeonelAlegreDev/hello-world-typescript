@@ -7,6 +7,9 @@
 npm i
 ```
 
+## Configuración
+
+
 ## Ejecución
 ### Ejecutar versión de desarrollo
 ```bash
