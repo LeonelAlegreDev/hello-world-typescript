@@ -1,0 +1,24 @@
+{
+  "name": "hello-world-typescript",
+  "version": "1.0.0",
+  "description": "```bash\r npm i typescript -D\r ```\r # Instalar paquete de Express.ja\r ```bash\r npm i express\r ```",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./build/index.js",
+    "build": "tsc --build",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
