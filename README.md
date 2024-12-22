@@ -1,4 +1,6 @@
 
+# Hello World con Typescript!
+Este proyecto es una guía basica para inicializar una aplicación de backend usando el framework Express.js, programado en Typescript y ejecutado con Node.js
 # Instalación
 ## Instalar paquete de Typescript
 ```bash
@@ -8,7 +10,7 @@ npm i typescript -D
 ```bash
 npx tsc --init
 ```
-## Instalar paquete de Express.js
+## Instalar paquetes de Express.js
 ```bash
 npm i express
 ```
@@ -20,7 +22,7 @@ npm i -D @types/express
 ```bash
 npm i -D nodemon
 ```
-## Instalar interprete de nodemon para Typescript
+## Instalar intérprete de Nodemon para Typescript
 ```bash
 npm i -D ts-node
 ```
@@ -41,7 +43,9 @@ Modificar la configuración del archivo tsconfig.json de la siguiente manera
 Modificar el archivo package.json
 ```json
 "scripts": {
-    "start": "node ./build/index.js"
+    "start": "node ./build/index.js",
+    "build": "tsc --build",
+    "dev": "nodemon ./src/index.ts"
 },
 ```
 # Generar build
